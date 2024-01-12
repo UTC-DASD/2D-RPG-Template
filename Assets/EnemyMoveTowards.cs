@@ -12,7 +12,7 @@ public class EnemyMoveTowards : MonoBehaviour
     // Use this for initialization
     void Start () 
     {
-
+        GoodGuy = GameObject.Find("Good Guy");
     }
 
 
