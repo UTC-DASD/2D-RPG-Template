@@ -190,7 +190,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1743439619939712198, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
       propertyPath: m_Name
-      value: Bad Guy (1)
+      value: Bad Guy (2024)
       objectReference: {fileID: 0}
     - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
       propertyPath: m_LocalPosition.x
