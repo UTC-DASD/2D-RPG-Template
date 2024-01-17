@@ -109,10 +109,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2847935743076630493}
   - component: {fileID: 8306054250070079916}
-  - component: {fileID: 5490557976401033647}
   - component: {fileID: 8200644908070755604}
   - component: {fileID: 957603553444010012}
-  - component: {fileID: 7274112749392060962}
+  - component: {fileID: 6343329812999296847}
+  - component: {fileID: 2844653419782630114}
   m_Layer: 0
   m_Name: Good Guy
   m_TagString: Untagged
@@ -188,25 +188,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5490557976401033647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3867572794044092672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cefa1173d60f8284e843fc75a98b3cba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  horizontalInput: 0
-  verticalInput: 0
-  speed: 10
-  autospeed: 1
-  rotatespeed: 0.00001
-  xRange: 9.5
-  yRange: 4.4
 --- !u!58 &8200644908070755604
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -269,7 +250,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &7274112749392060962
+--- !u!114 &6343329812999296847
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -278,10 +259,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 3867572794044092672}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2321324834fc9b489a17af42c4143ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 91d0b82463fcb4c459bc361a854bf574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 25
+  health: 5
+--- !u!114 &2844653419782630114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3867572794044092672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 310455ce5acc89444821d91b9992ca92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalInput: 0
+  verticalInput: 0
+  speed: 10
+  autospeed: 1
+  rotatespeed: 0
+  xRange: 9.5
+  yRange: 4.4
 --- !u!1 &4652542558058799006
 GameObject:
   m_ObjectHideFlags: 0

@@ -123,177 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &143794416
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1743439619939712198, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_Name
-      value: Bad Guy
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 24.181507
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 20.720901
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
---- !u!1001 &715990890
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1743439619939712198, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_Name
-      value: Bad Guy (2024)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -29.53191
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 27.026878
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
---- !u!1001 &1678869895
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1743439619939712198, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_Name
-      value: Bad Guy (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.8171921
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 27.139484
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2879350022161595558, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 18d01d5bdbea17d42819735cda0a16ae, type: 3}
 --- !u!1 &2024648936
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,6 +215,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2116099078
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1743439619939712198, guid: 63c4ea6f052db4049b5959fe3b435a4a, type: 3}
+      propertyPath: m_Name
+      value: Bad Guy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879350022161595558, guid: 63c4ea6f052db4049b5959fe3b435a4a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.484957
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879350022161595558, guid: 63c4ea6f052db4049b5959fe3b435a4a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.71715355
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879350022161595558, guid: 63c4ea6f052db4049b5959fe3b435a4a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879350022161595558, guid: 63c4ea6f052db4049b5959fe3b435a4a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879350022161595558, guid: 63c4ea6f052db4049b5959fe3b435a4a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879350022161595558, guid: 63c4ea6f052db4049b5959fe3b435a4a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879350022161595558, guid: 63c4ea6f052db4049b5959fe3b435a4a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879350022161595558, guid: 63c4ea6f052db4049b5959fe3b435a4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879350022161595558, guid: 63c4ea6f052db4049b5959fe3b435a4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879350022161595558, guid: 63c4ea6f052db4049b5959fe3b435a4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63c4ea6f052db4049b5959fe3b435a4a, type: 3}
 --- !u!1001 &1501405282887834231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -449,6 +335,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 2024648939}
   - {fileID: 1501405282887834231}
-  - {fileID: 143794416}
-  - {fileID: 715990890}
-  - {fileID: 1678869895}
+  - {fileID: 2116099078}
