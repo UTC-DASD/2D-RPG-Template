@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SwordDance : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class SwordDance : MonoBehaviour
     public float rotatespeed = 100000000000000000000f;
     public float xRange = 9.5f;
     public float yRange = 4.4f;
+    public GameObject PlayerMan;
+    public GameObject MainCamera;
 
 
     // Update is called once per frame
@@ -74,10 +77,15 @@ public class SwordDance : MonoBehaviour
     {
         transform.Translate(Vector2.up * Time.deltaTime * autospeed);
     }*/ /**********/
+    if (MainCamera.transform.position.y > 305.0f || PlayerMan.transform.position.y > 305.0f)
+        {
+            //MainCamera.transform.position = new Vector3(MainCamera.transform.position.x, MainCamera.transform.position.x, MainCamera.transform.position.z);
+            //PlayerMan.transform.position = new Vector3(PlayerMan.transform.position.x, PlayerMan.transform.position.x, PlayerMan.transform.position.x);
+            SceneManager.LoadScene(0);
+        }
+
 
     }
-
-
 }
 //if (Input.GetKeyDown(""))
 //transform.Rotate(Vector2.up, turnSpeed * Time.deltaTime);

@@ -29,7 +29,7 @@ public class AutoScroll : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Vertical");
         //transform.Translate(Vector3.right * verticalInput * Time.deltaTime * speed);
-        transform.localRotation = Quaternion.Euler(0, 0, verticalInput * Time.deltaTime * -rotatespeed);
+        transform.localRotation = Quaternion.Euler(0, 0, verticalInput * Time.deltaTime * rotatespeed);
 
     }
     if (transform.position.x < -xRange)
