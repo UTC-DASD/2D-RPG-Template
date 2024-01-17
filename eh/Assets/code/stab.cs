@@ -7,6 +7,8 @@ public class stab : MonoBehaviour
     public float damage;
     public GameObject player;
     public GameObject self;
+    public float attack_speed;
+    private float attack;
     private void Awake()
     {
         player = GameObject.Find("Good Guy");
@@ -14,9 +16,14 @@ public class stab : MonoBehaviour
 
     void Update()
     {
-        if (new Vector2(self.transform.position.x-player.transform.position.x, self.transform.position.y - player.transform.position.y).magnitude <= 0.5f)
+        if (new Vector2(self.transform.position.x-player.transform.position.x, self.transform.position.y - player.transform.position.y).magnitude <= 1f)
         {
-            player.GetComponent<HealthCalculations>().take_damage(damage);
+            if(attack <= 0)
+            {
+                player.GetComponent<HealthCalculations>().take_damage(damage);
+                attack = attack_speed;
+            }
         }
+        attack -= Time.deltaTime;
     }
 }
