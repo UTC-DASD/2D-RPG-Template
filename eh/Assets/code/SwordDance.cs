@@ -5,12 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class SwordDance : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     public float horizontalInput;
     public float verticalInput;
     public float speed = 10f;
@@ -21,8 +15,11 @@ public class SwordDance : MonoBehaviour
     public GameObject PlayerMan;
     public GameObject MainCamera;
 
+    void Start()
+    {
+        PlayerMan = GameObject.Find("Good Guy");
+    }
 
-    // Update is called once per frame
     void Update()
     {
     {

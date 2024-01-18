@@ -14,12 +14,21 @@ public class bullet : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnCollisionEnter2D(Collision2D other)
+    /*void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.GetComponent<HealthCalculations>() != null)
         {
             other.gameObject.GetComponent<HealthCalculations>().take_damage(damage);
         }
         Destroy(gameObject);
+    }*/
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Owch");
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+        }
     }
 }

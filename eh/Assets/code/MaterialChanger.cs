@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MaterialChanger : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public static bool isCool = false;
+    public Toggle myToggle;
     void Start()
     {
         
@@ -13,13 +15,22 @@ public class MaterialChanger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(myToggle.isOn)
+        {
         foreach(GameObject gameObj in GameObject.FindObjectsOfType<GameObject>())
         {
-            if(gameObj.name == "Cube")
+            if(gameObj.name == "Bad Guy")
             {
-                gameObj.GetComponent<Renderer>().material.color = new Color(0, 204, 102);
+                gameObj.GetComponent<Renderer>().material.color = new Color(0, 204, 0);
+                isCool = true;
             }
         }
+        }
+        else
+        {
+            isCool = false;
+        }
+        
 
     }
 }

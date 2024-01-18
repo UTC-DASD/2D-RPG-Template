@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class HealthCalculations : MonoBehaviour
+public class EnemyHealthCalculations : MonoBehaviour
 {
     public float health;
     public void take_damage(float damage)
@@ -11,7 +11,7 @@ public class HealthCalculations : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
-            SceneManager.LoadScene(1);
+            Destroy(gameObject);
         }
     }
 }
