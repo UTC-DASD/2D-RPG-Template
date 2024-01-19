@@ -24,13 +24,13 @@ public class SwordDance : MonoBehaviour
     {
     {
         verticalInput = Input.GetAxis("Horizontal");
-        transform.Translate(Vector3.up * horizontalInput * Time.deltaTime * speed);
+        transform.Translate(Vector3.up * horizontalInput * Time.deltaTime * speed / DifficultyStuff.diff);
         //transform.localRotation = Quaternion.Euler(0, 0, horizontalInput * Time.deltaTime * -rotatespeed);
 
     }
     {
         horizontalInput = Input.GetAxis("Vertical");
-        transform.Translate(Vector3.right * verticalInput * Time.deltaTime * speed);
+        transform.Translate(Vector3.right * verticalInput * Time.deltaTime * speed / DifficultyStuff.diff);
         transform.localRotation = Quaternion.Euler(0, 0, verticalInput * Time.deltaTime * -rotatespeed);
 
     }
@@ -69,7 +69,7 @@ public class SwordDance : MonoBehaviour
         {
             transform.Translate(Vector3.right * Time.deltaTime, Space.World);
         }*/
-    transform.Translate(Vector2.up * Time.deltaTime * autospeed);
+    transform.Translate(Vector2.up * Time.deltaTime * autospeed * DifficultyStuff.diff);
     /*if (Input.GetKeyDown("left shift"))
     {
         transform.Translate(Vector2.up * Time.deltaTime * autospeed);

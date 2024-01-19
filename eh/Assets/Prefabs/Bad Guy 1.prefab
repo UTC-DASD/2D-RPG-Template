@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -909226006116896440}
   - component: {fileID: -2553672649369027603}
   - component: {fileID: 1000077914525139510}
-  - component: {fileID: 3673657340175559515}
+  - component: {fileID: 6586055445598580327}
   m_Layer: 0
   m_Name: Bad Guy 1
   m_TagString: Enemy
@@ -224,7 +224,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &3673657340175559515
+--- !u!50 &6586055445598580327
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -250,4 +250,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4

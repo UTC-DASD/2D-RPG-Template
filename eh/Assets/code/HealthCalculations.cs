@@ -14,4 +14,13 @@ public class HealthCalculations : MonoBehaviour
             SceneManager.LoadScene(1);
         }
     }
+        void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            SceneManager.LoadScene(1);
+        }
+    }
+
+    
 }

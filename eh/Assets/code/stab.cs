@@ -26,4 +26,12 @@ public class stab : MonoBehaviour
         }
         attack -= Time.deltaTime;
     }
+    /*    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(1);
+        }
+    }*/
+    
 }

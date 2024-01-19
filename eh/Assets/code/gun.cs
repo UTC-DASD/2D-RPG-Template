@@ -14,7 +14,7 @@ public class gun : MonoBehaviour
             if (fire_rate <= 0)
             {
                 Instantiate(bullet, transform.position, transform.rotation);
-                fire_rate = 0.25f;
+                fire_rate = 0.25f * DifficultyStuff.diff * DifficultyStuff.diff;
             }
         }
         fire_rate -= Time.deltaTime;

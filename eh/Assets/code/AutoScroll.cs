@@ -40,6 +40,6 @@ public class AutoScroll : MonoBehaviour
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
-        transform.Translate(Vector2.up * Time.deltaTime * autospeed);
+        transform.Translate(Vector2.up * Time.deltaTime * autospeed * DifficultyStuff.diff);
     }
 }

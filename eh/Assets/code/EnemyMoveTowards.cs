@@ -12,6 +12,7 @@ public class EnemyMoveTowards : MonoBehaviour
     // Use this for initialization
     void Awake () 
     {
+        GoodGuy = GameObject.Find("Good Guy");
         if (GoodGuy == null)
         {
             GoodGuy = GameObject.Find("Good Guy");
@@ -23,7 +24,7 @@ public class EnemyMoveTowards : MonoBehaviour
     void Update() 
     {
         //Vector3.MoveTowards(player.transform.position.x, player.transform.position.y, player.transform.position.z, 1);
-        enemyPosition = Vector3.MoveTowards(transform.position, GoodGuy.transform.position, speed * Time.deltaTime);
+        enemyPosition = Vector3.MoveTowards(transform.position, GoodGuy.transform.position, speed * Time.deltaTime * DifficultyStuff.diff);
 
         transform.position = enemyPosition;
     }
